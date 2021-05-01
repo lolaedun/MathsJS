@@ -21,6 +21,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function runGame() {
 
+    // Creates two numbers with a value of between 1 and 10
+
+    let num1 = Math.floor(Math.random() * 10) + 1;
+    let num2 = Math.floor(Math.random() * 10) + 1;
+
+
 }
 
 // Called when the user clicks the Submit button or presses Enter
