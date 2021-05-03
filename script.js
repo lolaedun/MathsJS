@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function runGame(gameType) {
 
     document.getElementById("answer-box").value = "";
+    document.getElementById("answer-box").focus();
 
     // Creates two numbers with a value of between 1 and 10
 
