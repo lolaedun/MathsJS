@@ -4,6 +4,12 @@
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
+    document.getElementById("answer-box").addEventListener("keydown", function (event) {
+        if (event.key == "Enter") {
+            checkAnswer();
+        }
+    })
+
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-type") === "submit") {
